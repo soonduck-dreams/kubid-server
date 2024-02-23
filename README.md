@@ -3,7 +3,11 @@
 KUBID는 고려대학교 학생들을 위한 경매형 중고 거래 서비스입니다.
 하한가와 상한가를 설정해서 상품을 등록하면 경매가 시작됩니다. 구매자들의 입찰이 진행되고 판매자는 원하는 가격에 낙찰할 수 있습니다.
 
-# Project Setup
+# 사용 기술
+
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/TypeORM-FFFFFF?style=for-the-badge&logoColor=white">
+
+# 프로젝트 설치
 
 ## Database
 
@@ -29,21 +33,10 @@ JWT_SECRET_KEY='jwtkeyexample'
 
 If you are in production mode, create a `.env.prod` file in the root directory of the project and add the above configuration variables with the appropriate values.
 
-## Execution
-
-Execute the following commands in the root directory of the project to run the server according to the mode you want.
-
-### Development Mode
+## 실행
 
 ```bash
 npm install
 npm run dev
 ```
 
-### Production Mode
-
-```bash
-npm install
-npm run build
-npm run prod
-```
